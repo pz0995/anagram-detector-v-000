@@ -4,8 +4,7 @@ class Anagram
     @name = word
   end
 
-  def matches(collection)
-    self.map { |w| sort_alphabetically(w) }.uniq.one?
-
-  end
+  def are_anagrams?(words)
+          words.map { |w| sort_alphabetically(w) }.uniq.size == 1
+      end
 end
