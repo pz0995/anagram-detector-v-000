@@ -4,7 +4,8 @@ class Anagram
     @word = word
   end
 
-  word.select do |element|
+def word_array(word_array)
+  word_array.select do |element|
     (@word.split("").sort) == (element.split("").sort)
 end
 end
