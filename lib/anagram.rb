@@ -5,6 +5,8 @@ class Anagram
   end
 
   def matches(collection)
-    words.each { |x, y| p y }
+    function isAnagram(a,b) {
+    return new set([a,b].map(x => x.split('').sort().join(''))).size === 1;
+}
   end
 end
