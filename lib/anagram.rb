@@ -5,8 +5,7 @@ class Anagram
   end
 
   def matches(collection)
-    function isAnagram(a,b) {
-    return new array([a,b].map(x => x.split('').sort().join(''))).size === 1;
-}
+    self.map { |w| sort_alphabetically(w) }.uniq.one?
+    
   end
 end
