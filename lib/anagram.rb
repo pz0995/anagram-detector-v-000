@@ -9,3 +9,4 @@ def word_array(word_array)
     (@word.split("").sort) == (element.split("").sort)
 end
 end
+end
