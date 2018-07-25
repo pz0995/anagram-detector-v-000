@@ -6,6 +6,6 @@ class Anagram
 
   def matches(collection)
     self.map { |w| sort_alphabetically(w) }.uniq.one?
-    
+
   end
 end
