@@ -1,7 +1,7 @@
 class Anagram
   attr_accessor :word
   def initialize(word)
-    @name = word
+    @word = word
   end
 
   def are_anagrams?(words)
